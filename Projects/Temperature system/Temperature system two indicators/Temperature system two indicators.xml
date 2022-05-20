@@ -1,0 +1,648 @@
+<mxGraphModel>
+  <root>
+    <mxCell id="0"/>
+    <mxCell id="feature" parent="0" visible="0"/>
+    <mxCell id="component" parent="0" visible="0"/>
+    <mxCell id="binding_feature_component" parent="0" visible="0"/>
+    <mxCell id="istar" parent="0" visible="0"/>
+    <mxCell id="classdiag" parent="0" visible="0"/>
+    <mxCell id="adap_architecture" parent="0" visible="0"/>
+    <mxCell id="adaptation_architecture" parent="0" visible="0"/>
+    <mxCell id="adaptation_hardware" parent="0" visible="0"/>
+    <board type="board" label="ArduinoUNO" boardType="ArduinoUNO" subtype="ArduinoUNO" digitalPins="D2,D4,D7,D8,D12,D13" analogPins="A0,A1,A2,A3,A4,A5" pwmPins="P3,P5,P6,P9,P10,P11" id="1">
+      <mxCell style="shape=board" parent="adaptation_hardware" vertex="1">
+        <mxGeometry x="350" y="130" width="150" height="182.5" as="geometry"/>
+      </mxCell>
+    </board>
+    <D2 label="D2" type="digital" id="2">
+      <mxCell style="shape=ellipse;perimeter=ellipsePerimeter;direction=north;movable=0;resizable=0;" parent="1" vertex="1">
+        <mxGeometry x="10" y="10" width="7.5" height="7.5" as="geometry">
+          <mxPoint as="offset"/>
+        </mxGeometry>
+      </mxCell>
+    </D2>
+    <D4 label="D4" type="digital" id="3">
+      <mxCell style="shape=ellipse;perimeter=ellipsePerimeter;direction=north;movable=0;resizable=0;" parent="1" vertex="1">
+        <mxGeometry x="10" y="25" width="7.5" height="7.5" as="geometry">
+          <mxPoint as="offset"/>
+        </mxGeometry>
+      </mxCell>
+    </D4>
+    <D7 label="D7" type="digital" id="4">
+      <mxCell style="shape=ellipse;perimeter=ellipsePerimeter;direction=north;movable=0;resizable=0;" parent="1" vertex="1">
+        <mxGeometry x="10" y="40" width="7.5" height="7.5" as="geometry">
+          <mxPoint as="offset"/>
+        </mxGeometry>
+      </mxCell>
+    </D7>
+    <D8 label="D8" type="digital" id="5">
+      <mxCell style="shape=ellipse;perimeter=ellipsePerimeter;direction=north;movable=0;resizable=0;" parent="1" vertex="1">
+        <mxGeometry x="10" y="55" width="7.5" height="7.5" as="geometry">
+          <mxPoint as="offset"/>
+        </mxGeometry>
+      </mxCell>
+    </D8>
+    <D12 label="D12" type="digital" id="6">
+      <mxCell style="shape=ellipse;perimeter=ellipsePerimeter;direction=north;movable=0;resizable=0;" parent="1" vertex="1">
+        <mxGeometry x="10" y="70" width="7.5" height="7.5" as="geometry">
+          <mxPoint as="offset"/>
+        </mxGeometry>
+      </mxCell>
+    </D12>
+    <D13 label="D13" type="digital" id="7">
+      <mxCell style="shape=ellipse;perimeter=ellipsePerimeter;direction=north;movable=0;resizable=0;" parent="1" vertex="1">
+        <mxGeometry x="10" y="85" width="7.5" height="7.5" as="geometry">
+          <mxPoint as="offset"/>
+        </mxGeometry>
+      </mxCell>
+    </D13>
+    <A0 label="A0" type="analog" id="8">
+      <mxCell style="shape=ellipse;perimeter=ellipsePerimeter;direction=north;movable=0;resizable=0;" parent="1" vertex="1">
+        <mxGeometry x="130" y="10" width="7.5" height="7.5" as="geometry">
+          <mxPoint as="offset"/>
+        </mxGeometry>
+      </mxCell>
+    </A0>
+    <A1 label="A1" type="analog" id="9">
+      <mxCell style="shape=ellipse;perimeter=ellipsePerimeter;direction=north;movable=0;resizable=0;" parent="1" vertex="1">
+        <mxGeometry x="130" y="25" width="7.5" height="7.5" as="geometry">
+          <mxPoint as="offset"/>
+        </mxGeometry>
+      </mxCell>
+    </A1>
+    <A2 label="A2" type="analog" id="10">
+      <mxCell style="shape=ellipse;perimeter=ellipsePerimeter;direction=north;movable=0;resizable=0;" parent="1" vertex="1">
+        <mxGeometry x="130" y="40" width="7.5" height="7.5" as="geometry">
+          <mxPoint as="offset"/>
+        </mxGeometry>
+      </mxCell>
+    </A2>
+    <A3 label="A3" type="analog" id="11">
+      <mxCell style="shape=ellipse;perimeter=ellipsePerimeter;direction=north;movable=0;resizable=0;" parent="1" vertex="1">
+        <mxGeometry x="130" y="55" width="7.5" height="7.5" as="geometry">
+          <mxPoint as="offset"/>
+        </mxGeometry>
+      </mxCell>
+    </A3>
+    <A4 label="A4" type="analog" id="12">
+      <mxCell style="shape=ellipse;perimeter=ellipsePerimeter;direction=north;movable=0;resizable=0;" parent="1" vertex="1">
+        <mxGeometry x="130" y="70" width="7.5" height="7.5" as="geometry">
+          <mxPoint as="offset"/>
+        </mxGeometry>
+      </mxCell>
+    </A4>
+    <A5 label="A5" type="analog" id="13">
+      <mxCell style="shape=ellipse;perimeter=ellipsePerimeter;direction=north;movable=0;resizable=0;" parent="1" vertex="1">
+        <mxGeometry x="130" y="85" width="7.5" height="7.5" as="geometry">
+          <mxPoint as="offset"/>
+        </mxGeometry>
+      </mxCell>
+    </A5>
+    <P3 label="P3" type="pwm" id="14">
+      <mxCell style="shape=ellipse;perimeter=ellipsePerimeter;direction=north;movable=0;resizable=0;" parent="1" vertex="1">
+        <mxGeometry x="10" y="100" width="7.5" height="7.5" as="geometry">
+          <mxPoint as="offset"/>
+        </mxGeometry>
+      </mxCell>
+    </P3>
+    <P5 label="P5" type="pwm" id="15">
+      <mxCell style="shape=ellipse;perimeter=ellipsePerimeter;direction=north;movable=0;resizable=0;" parent="1" vertex="1">
+        <mxGeometry x="10" y="115" width="7.5" height="7.5" as="geometry">
+          <mxPoint as="offset"/>
+        </mxGeometry>
+      </mxCell>
+    </P5>
+    <P6 label="P6" type="pwm" id="16">
+      <mxCell style="shape=ellipse;perimeter=ellipsePerimeter;direction=north;movable=0;resizable=0;" parent="1" vertex="1">
+        <mxGeometry x="10" y="130" width="7.5" height="7.5" as="geometry">
+          <mxPoint as="offset"/>
+        </mxGeometry>
+      </mxCell>
+    </P6>
+    <P9 label="P9" type="pwm" id="17">
+      <mxCell style="shape=ellipse;perimeter=ellipsePerimeter;direction=north;movable=0;resizable=0;" parent="1" vertex="1">
+        <mxGeometry x="10" y="145" width="7.5" height="7.5" as="geometry">
+          <mxPoint as="offset"/>
+        </mxGeometry>
+      </mxCell>
+    </P9>
+    <P10 label="P10" type="pwm" id="18">
+      <mxCell style="shape=ellipse;perimeter=ellipsePerimeter;direction=north;movable=0;resizable=0;" parent="1" vertex="1">
+        <mxGeometry x="10" y="160" width="7.5" height="7.5" as="geometry">
+          <mxPoint as="offset"/>
+        </mxGeometry>
+      </mxCell>
+    </P10>
+    <P11 label="P11" type="pwm" id="19">
+      <mxCell style="shape=ellipse;perimeter=ellipsePerimeter;direction=north;movable=0;resizable=0;" parent="1" vertex="1">
+        <mxGeometry x="10" y="175" width="7.5" height="7.5" as="geometry">
+          <mxPoint as="offset"/>
+        </mxGeometry>
+      </mxCell>
+    </P11>
+    <device type="device" label="ledHot" required="true" subtype="led" digitalPins="D0" analogPins="" pwmPins="" promptName="true" id="20">
+      <mxCell style="shape=device" parent="adaptation_hardware" vertex="1">
+        <mxGeometry x="200" y="130" width="100" height="35" as="geometry"/>
+      </mxCell>
+    </device>
+    <D0 label="D0" type="digital" id="21">
+      <mxCell style="shape=ellipse;perimeter=ellipsePerimeter;direction=north;movable=0;resizable=0;" parent="20" vertex="1">
+        <mxGeometry x="45" y="24" width="7.5" height="7.5" as="geometry">
+          <mxPoint as="offset"/>
+        </mxGeometry>
+      </mxCell>
+    </D0>
+    <device type="device" label="ledCold" required="false" subtype="led" digitalPins="D0" analogPins="" pwmPins="" promptName="true" id="22">
+      <mxCell style="shape=device" parent="adaptation_hardware" vertex="1">
+        <mxGeometry x="200" y="200" width="100" height="35" as="geometry"/>
+      </mxCell>
+    </device>
+    <D0 label="D0" type="digital" id="23">
+      <mxCell style="shape=ellipse;perimeter=ellipsePerimeter;direction=north;movable=0;resizable=0;" parent="22" vertex="1">
+        <mxGeometry x="45" y="24" width="7.5" height="7.5" as="geometry">
+          <mxPoint as="offset"/>
+        </mxGeometry>
+      </mxCell>
+    </D0>
+    <rel_digital_digital type="relation" id="24">
+      <mxCell style="strokeColor=#333333;strokeWidth=2;dashed=1;endFill=0;" parent="adaptation_hardware" source="21" target="3" edge="1">
+        <mxGeometry relative="1" as="geometry"/>
+      </mxCell>
+    </rel_digital_digital>
+    <rel_digital_digital type="relation" id="25">
+      <mxCell style="strokeColor=#333333;strokeWidth=2;dashed=1;endFill=0;" parent="adaptation_hardware" source="23" target="4" edge="1">
+        <mxGeometry relative="1" as="geometry"/>
+      </mxCell>
+    </rel_digital_digital>
+    <device type="device" label="sensor" required="true" subtype="tmp36" digitalPins="" analogPins="A0" pwmPins="" promptName="true" id="26">
+      <mxCell style="shape=device" parent="adaptation_hardware" vertex="1">
+        <mxGeometry x="570" y="130" width="100" height="45.5" as="geometry"/>
+      </mxCell>
+    </device>
+    <A0 label="A0" type="analog" id="27">
+      <mxCell style="shape=ellipse;perimeter=ellipsePerimeter;direction=north;movable=0;resizable=0;" parent="26" vertex="1">
+        <mxGeometry x="45" y="38" width="7.5" height="7.5" as="geometry">
+          <mxPoint as="offset"/>
+        </mxGeometry>
+      </mxCell>
+    </A0>
+    <rel_analog_analog type="relation" id="28">
+      <mxCell style="strokeColor=#333333;strokeWidth=2;dashed=1;endFill=0;" parent="adaptation_hardware" source="27" target="8" edge="1">
+        <mxGeometry relative="1" as="geometry"/>
+      </mxCell>
+    </rel_analog_analog>
+    <mxCell id="adaptation_behavior_hardware" parent="0" visible="0"/>
+    <device type="device" label="ledHot" required="true" subtype="led" digitalPins="D0" analogPins="" pwmPins="" promptName="true" id="clon20">
+      <mxCell style="shape=device;fillColor=#DCDCDC;" parent="adaptation_behavior_hardware" vertex="1">
+        <mxGeometry x="15" y="15" width="100" height="35" as="geometry"/>
+      </mxCell>
+    </device>
+    <D0 label="D0" type="digital" id="clon21">
+      <mxCell style="shape=ellipse;perimeter=ellipsePerimeter;direction=north;movable=0;resizable=0;" parent="clon20" vertex="1">
+        <mxGeometry x="45" y="24" width="7.5" height="7.5" as="geometry">
+          <mxPoint as="offset"/>
+        </mxGeometry>
+      </mxCell>
+    </D0>
+    <device type="device" label="ledCold" required="false" subtype="led" digitalPins="D0" analogPins="" pwmPins="" promptName="true" id="clon22">
+      <mxCell style="shape=device;fillColor=#DCDCDC;" parent="adaptation_behavior_hardware" vertex="1">
+        <mxGeometry x="245" y="15" width="100" height="35" as="geometry"/>
+      </mxCell>
+    </device>
+    <D0 label="D0" type="digital" id="clon23">
+      <mxCell style="shape=ellipse;perimeter=ellipsePerimeter;direction=north;movable=0;resizable=0;" parent="clon22" vertex="1">
+        <mxGeometry x="45" y="24" width="7.5" height="7.5" as="geometry">
+          <mxPoint as="offset"/>
+        </mxGeometry>
+      </mxCell>
+    </D0>
+    <device type="device" label="sensor" required="true" subtype="tmp36" digitalPins="" analogPins="A0" pwmPins="" promptName="true" id="clon26">
+      <mxCell style="shape=device;fillColor=#DCDCDC;" parent="adaptation_behavior_hardware" vertex="1">
+        <mxGeometry x="475" y="15" width="100" height="45.5" as="geometry"/>
+      </mxCell>
+    </device>
+    <A0 label="A0" type="analog" id="clon27">
+      <mxCell style="shape=ellipse;perimeter=ellipsePerimeter;direction=north;movable=0;resizable=0;" parent="clon26" vertex="1">
+        <mxGeometry x="45" y="38" width="7.5" height="7.5" as="geometry">
+          <mxPoint as="offset"/>
+        </mxGeometry>
+      </mxCell>
+    </A0>
+    <writeAction type="writeAction" label="ledHot_off" required="true" subtype="off" device="led" parameters="" id="29">
+      <mxCell style="shape=writeAction" parent="adaptation_behavior_hardware" vertex="1">
+        <mxGeometry x="15" y="115" width="100" height="35" as="geometry"/>
+      </mxCell>
+    </writeAction>
+    <rel_device_writeAction type="relation" id="30">
+      <mxCell style="strokeColor=#333333;strokeWidth=2;" parent="adaptation_behavior_hardware" source="clon20" target="29" edge="1">
+        <mxGeometry relative="1" as="geometry"/>
+      </mxCell>
+    </rel_device_writeAction>
+    <writeAction type="writeAction" label="ledHot_on" required="true" subtype="on" device="led" parameters="" id="33">
+      <mxCell style="shape=writeAction" parent="adaptation_behavior_hardware" vertex="1">
+        <mxGeometry x="130" y="115" width="100" height="35" as="geometry"/>
+      </mxCell>
+    </writeAction>
+    <rel_device_writeAction type="relation" id="34">
+      <mxCell style="strokeColor=#333333;strokeWidth=2;" parent="adaptation_behavior_hardware" source="clon20" target="33" edge="1">
+        <mxGeometry relative="1" as="geometry"/>
+      </mxCell>
+    </rel_device_writeAction>
+    <writeAction type="writeAction" label="ledCold_off" required="true" subtype="off" device="led" parameters="" id="37">
+      <mxCell style="shape=writeAction" parent="adaptation_behavior_hardware" vertex="1">
+        <mxGeometry x="245" y="115" width="100" height="35" as="geometry"/>
+      </mxCell>
+    </writeAction>
+    <rel_device_writeAction type="relation" id="38">
+      <mxCell style="strokeColor=#333333;strokeWidth=2;" parent="adaptation_behavior_hardware" source="clon22" target="37" edge="1">
+        <mxGeometry relative="1" as="geometry"/>
+      </mxCell>
+    </rel_device_writeAction>
+    <writeAction type="writeAction" label="ledCold_on" required="true" subtype="on" device="led" parameters="" id="41">
+      <mxCell style="shape=writeAction" parent="adaptation_behavior_hardware" vertex="1">
+        <mxGeometry x="360" y="115" width="100" height="35" as="geometry"/>
+      </mxCell>
+    </writeAction>
+    <rel_device_writeAction type="relation" id="42">
+      <mxCell style="strokeColor=#333333;strokeWidth=2;" parent="adaptation_behavior_hardware" source="clon22" target="41" edge="1">
+        <mxGeometry relative="1" as="geometry"/>
+      </mxCell>
+    </rel_device_writeAction>
+    <readAction type="readAction" label="sensor_getTemperature" required="true" subtype="getTemperature" device="tmp36" parameters="" id="45">
+      <mxCell style="shape=readAction" parent="adaptation_behavior_hardware" vertex="1">
+        <mxGeometry x="475" y="115" width="100" height="35" as="geometry"/>
+      </mxCell>
+    </readAction>
+    <rel_device_readAction type="relation" id="46">
+      <mxCell style="strokeColor=#333333;strokeWidth=2;" parent="adaptation_behavior_hardware" source="clon26" target="45" edge="1">
+        <mxGeometry relative="1" as="geometry"/>
+      </mxCell>
+    </rel_device_readAction>
+    <variable type="variable" label="var_temperature" dataType="double" value="0" promptName="true" id="49">
+      <mxCell style="shape=analogVariable" parent="adaptation_behavior_hardware" vertex="1">
+        <mxGeometry x="480" y="200" width="100" height="35" as="geometry"/>
+      </mxCell>
+    </variable>
+    <rel_readAction_variable type="relation" id="50">
+      <mxCell style="strokeColor=#333333;strokeWidth=2;dashed=1;endFill=1" parent="adaptation_behavior_hardware" source="45" target="49" edge="1">
+        <mxGeometry relative="1" as="geometry"/>
+      </mxCell>
+    </rel_readAction_variable>
+    <variable type="variable" label="var_limit_hot" dataType="double" value="180" promptName="true" id="90">
+      <mxCell style="shape=analogVariable" parent="adaptation_behavior_hardware" vertex="1">
+        <mxGeometry x="360" y="200" width="100" height="35" as="geometry"/>
+      </mxCell>
+    </variable>
+    <mxCell id="adaptation_state" parent="0" visible="0"/>
+    <initialState label="cold" type="initialState" acceptance="true" promptName="true" id="51">
+      <mxCell style="shape=initialState" parent="adaptation_state" vertex="1">
+        <mxGeometry x="290" y="70" width="100" height="35" as="geometry"/>
+      </mxCell>
+    </initialState>
+    <state label="hot" type="state" acceptance="false" required="true" promptName="true" id="58">
+      <mxCell style="shape=state" parent="adaptation_state" vertex="1">
+        <mxGeometry x="560" y="70" width="100" height="35" as="geometry"/>
+      </mxCell>
+    </state>
+    <transition type="transition" label="cold_hot" required="true" id="65">
+      <mxCell style="shape=transition" parent="adaptation_state" vertex="1">
+        <mxGeometry x="430" y="20" width="100" height="35" as="geometry"/>
+      </mxCell>
+    </transition>
+    <rel_initialState_transition type="relation" id="66">
+      <mxCell style="strokeColor=#333333;strokeWidth=2;" parent="adaptation_state" source="51" target="65" edge="1">
+        <mxGeometry relative="1" as="geometry"/>
+      </mxCell>
+    </rel_initialState_transition>
+    <rel_transition_state type="relation" id="67">
+      <mxCell style="strokeColor=#333333;strokeWidth=2;" parent="adaptation_state" source="65" target="58" edge="1">
+        <mxGeometry relative="1" as="geometry"/>
+      </mxCell>
+    </rel_transition_state>
+    <transition type="transition" label="hot_cold" required="true" id="74">
+      <mxCell style="shape=transition" parent="adaptation_state" vertex="1">
+        <mxGeometry x="430" y="120" width="100" height="35" as="geometry"/>
+      </mxCell>
+    </transition>
+    <rel_state_transition type="relation" id="75">
+      <mxCell style="strokeColor=#333333;strokeWidth=2;" parent="adaptation_state" source="58" target="74" edge="1">
+        <mxGeometry relative="1" as="geometry"/>
+      </mxCell>
+    </rel_state_transition>
+    <rel_transition_initialState type="relation" id="76">
+      <mxCell style="strokeColor=#333333;strokeWidth=2;" parent="adaptation_state" source="74" target="51" edge="1">
+        <mxGeometry relative="1" as="geometry"/>
+      </mxCell>
+    </rel_transition_initialState>
+    <mxCell id="adaptation_behavior_states" parent="0" visible="0"/>
+    <writeAction type="writeAction" label="ledHot_off" required="true" subtype="off" device="led" parameters="" originalId="29" id="clon29">
+      <mxCell style="shape=writeAction;fillColor=#DCDCDC;" parent="adaptation_behavior_states" vertex="1">
+        <mxGeometry x="540" y="15" width="100" height="35" as="geometry"/>
+      </mxCell>
+    </writeAction>
+    <actionLifeLine type="actionLifeLine" label="acll" alias="acll" id="31">
+      <mxCell style="shape=lifeLine" parent="adaptation_behavior_states" vertex="1">
+        <mxGeometry x="585" y="80" width="10" height="130" as="geometry"/>
+      </mxCell>
+    </actionLifeLine>
+    <rel_writeAction_actionLifeLine type="relation" id="32">
+      <mxCell style="strokeColor=#333333;strokeWidth=2;dashed=1;endFill=0;endArrow=none;edgeStyle=elbowEdgeStyle;elbow=horizontal;orthogonal=1;" parent="adaptation_behavior_states" source="clon29" target="31" edge="1">
+        <mxGeometry relative="1" as="geometry"/>
+      </mxCell>
+    </rel_writeAction_actionLifeLine>
+    <writeAction type="writeAction" label="ledHot_on" required="true" subtype="on" device="led" parameters="" originalId="33" id="clon33">
+      <mxCell style="shape=writeAction;fillColor=#DCDCDC;" parent="adaptation_behavior_states" vertex="1">
+        <mxGeometry x="645" y="15" width="100" height="35" as="geometry"/>
+      </mxCell>
+    </writeAction>
+    <actionLifeLine type="actionLifeLine" label="acll1" alias="acll" id="35">
+      <mxCell style="shape=lifeLine" parent="adaptation_behavior_states" vertex="1">
+        <mxGeometry x="690" y="80" width="10" height="130" as="geometry"/>
+      </mxCell>
+    </actionLifeLine>
+    <rel_writeAction_actionLifeLine type="relation" id="36">
+      <mxCell style="strokeColor=#333333;strokeWidth=2;dashed=1;endFill=0;endArrow=none;edgeStyle=elbowEdgeStyle;elbow=horizontal;orthogonal=1;" parent="adaptation_behavior_states" source="clon33" target="35" edge="1">
+        <mxGeometry relative="1" as="geometry"/>
+      </mxCell>
+    </rel_writeAction_actionLifeLine>
+    <writeAction type="writeAction" label="ledCold_off" required="true" subtype="off" device="led" parameters="" originalId="37" id="clon37">
+      <mxCell style="shape=writeAction;fillColor=#DCDCDC;" parent="adaptation_behavior_states" vertex="1">
+        <mxGeometry x="750" y="15" width="100" height="35" as="geometry"/>
+      </mxCell>
+    </writeAction>
+    <actionLifeLine type="actionLifeLine" label="acll2" alias="acll" id="39">
+      <mxCell style="shape=lifeLine" parent="adaptation_behavior_states" vertex="1">
+        <mxGeometry x="795" y="80" width="10" height="130" as="geometry"/>
+      </mxCell>
+    </actionLifeLine>
+    <rel_writeAction_actionLifeLine type="relation" id="40">
+      <mxCell style="strokeColor=#333333;strokeWidth=2;dashed=1;endFill=0;endArrow=none;edgeStyle=elbowEdgeStyle;elbow=horizontal;orthogonal=1;" parent="adaptation_behavior_states" source="clon37" target="39" edge="1">
+        <mxGeometry relative="1" as="geometry"/>
+      </mxCell>
+    </rel_writeAction_actionLifeLine>
+    <writeAction type="writeAction" label="ledCold_on" required="true" subtype="on" device="led" parameters="" originalId="41" id="clon41">
+      <mxCell style="shape=writeAction;fillColor=#DCDCDC;" parent="adaptation_behavior_states" vertex="1">
+        <mxGeometry x="435" y="15" width="100" height="35" as="geometry"/>
+      </mxCell>
+    </writeAction>
+    <actionLifeLine type="actionLifeLine" label="acll3" alias="acll" id="43">
+      <mxCell style="shape=lifeLine" parent="adaptation_behavior_states" vertex="1">
+        <mxGeometry x="480" y="80" width="10" height="130" as="geometry"/>
+      </mxCell>
+    </actionLifeLine>
+    <rel_writeAction_actionLifeLine type="relation" id="44">
+      <mxCell style="strokeColor=#333333;strokeWidth=2;dashed=1;endFill=0;endArrow=none;edgeStyle=elbowEdgeStyle;elbow=horizontal;orthogonal=1;" parent="adaptation_behavior_states" source="clon41" target="43" edge="1">
+        <mxGeometry relative="1" as="geometry"/>
+      </mxCell>
+    </rel_writeAction_actionLifeLine>
+    <readAction type="readAction" label="sensor_getTemperature" required="true" subtype="getTemperature" device="tmp36" parameters="" originalId="45" id="clon45">
+      <mxCell style="shape=readAction;fillColor=#DCDCDC;" parent="adaptation_behavior_states" vertex="1">
+        <mxGeometry x="855" y="15" width="100" height="35" as="geometry"/>
+      </mxCell>
+    </readAction>
+    <actionLifeLine type="actionLifeLine" label="acll4" alias="acll" id="47">
+      <mxCell style="shape=lifeLine" parent="adaptation_behavior_states" vertex="1">
+        <mxGeometry x="900" y="80" width="10" height="130" as="geometry"/>
+      </mxCell>
+    </actionLifeLine>
+    <rel_readAction_actionLifeLine type="relation" id="48">
+      <mxCell style="strokeColor=#333333;strokeWidth=2;dashed=1;endFill=0;endArrow=none;edgeStyle=elbowEdgeStyle;elbow=horizontal;orthogonal=1;" parent="adaptation_behavior_states" source="clon45" target="47" edge="1">
+        <mxGeometry relative="1" as="geometry"/>
+      </mxCell>
+    </rel_readAction_actionLifeLine>
+    <initialState label="cold" type="initialState" acceptance="true" promptName="true" id="clon51">
+      <mxCell style="shape=initialState;fillColor=#DCDCDC;" parent="adaptation_behavior_states" vertex="1">
+        <mxGeometry x="15" y="15" width="100" height="35" as="geometry"/>
+      </mxCell>
+    </initialState>
+    <stateLifeLine type="stateLifeLine" label="sll" alias="sll" phase="while" id="52">
+      <mxCell style="shape=lifeLine" parent="adaptation_behavior_states" vertex="1">
+        <mxGeometry x="60" y="80" width="10" height="50" as="geometry"/>
+      </mxCell>
+    </stateLifeLine>
+    <rel_initialState_stateLifeLine type="relation" id="53">
+      <mxCell style="strokeColor=#333333;strokeWidth=2;dashed=1;endFill=0;endArrow=none;edgeStyle=elbowEdgeStyle;elbow=horizontal;orthogonal=1;" parent="adaptation_behavior_states" source="clon51" target="52" edge="1">
+        <mxGeometry relative="1" as="geometry"/>
+      </mxCell>
+    </rel_initialState_stateLifeLine>
+    <activity type="activity" label="activity_cold" required="true" id="54">
+      <mxCell style="shape=activity" parent="adaptation_behavior_states" vertex="1">
+        <mxGeometry x="225" y="15" width="100" height="35" as="geometry"/>
+      </mxCell>
+    </activity>
+    <activityLifeLine type="activityLifeLine" label="all" alias="all" id="55">
+      <mxCell style="shape=lifeLine" parent="adaptation_behavior_states" vertex="1">
+        <mxGeometry x="270" y="80" width="10" height="50" as="geometry"/>
+      </mxCell>
+    </activityLifeLine>
+    <rel_activity_activityLifeLine type="relation" id="56">
+      <mxCell style="strokeColor=#333333;strokeWidth=2;dashed=1;endFill=0;endArrow=none;edgeStyle=elbowEdgeStyle;elbow=horizontal;orthogonal=1;" parent="adaptation_behavior_states" source="54" target="55" edge="1">
+        <mxGeometry relative="1" as="geometry"/>
+      </mxCell>
+    </rel_activity_activityLifeLine>
+    <rel_stateLifeLine_activityLifeLine type="relation" time="0" execution="Synchronous" id="57">
+      <mxCell style="strokeColor=#333333;strokeWidth=2;dashed=1;edgeStyle=elbowEdgeStyle;elbow=horizontal;orthogonal=1;" parent="adaptation_behavior_states" source="52" target="55" edge="1">
+        <mxGeometry relative="1" as="geometry"/>
+      </mxCell>
+    </rel_stateLifeLine_activityLifeLine>
+    <state label="hot" type="state" acceptance="false" required="true" promptName="true" id="clon58">
+      <mxCell style="shape=state;fillColor=#DCDCDC;" parent="adaptation_behavior_states" vertex="1">
+        <mxGeometry x="120" y="15" width="100" height="35" as="geometry"/>
+      </mxCell>
+    </state>
+    <stateLifeLine type="stateLifeLine" label="sll1" alias="sll" phase="while" id="59">
+      <mxCell style="shape=lifeLine" parent="adaptation_behavior_states" vertex="1">
+        <mxGeometry x="165" y="160" width="10" height="50" as="geometry"/>
+      </mxCell>
+    </stateLifeLine>
+    <rel_state_stateLifeLine type="relation" id="60">
+      <mxCell style="strokeColor=#333333;strokeWidth=2;dashed=1;endFill=0;endArrow=none;edgeStyle=elbowEdgeStyle;elbow=horizontal;orthogonal=1;" parent="adaptation_behavior_states" source="clon58" target="59" edge="1">
+        <mxGeometry relative="1" as="geometry"/>
+      </mxCell>
+    </rel_state_stateLifeLine>
+    <activity type="activity" label="activity_hot" required="true" id="61">
+      <mxCell style="shape=activity" parent="adaptation_behavior_states" vertex="1">
+        <mxGeometry x="330" y="15" width="100" height="35" as="geometry"/>
+      </mxCell>
+    </activity>
+    <activityLifeLine type="activityLifeLine" label="all1" alias="all" id="62">
+      <mxCell style="shape=lifeLine" parent="adaptation_behavior_states" vertex="1">
+        <mxGeometry x="375" y="160" width="10" height="50" as="geometry"/>
+      </mxCell>
+    </activityLifeLine>
+    <rel_activity_activityLifeLine type="relation" id="63">
+      <mxCell style="strokeColor=#333333;strokeWidth=2;dashed=1;endFill=0;endArrow=none;edgeStyle=elbowEdgeStyle;elbow=horizontal;orthogonal=1;" parent="adaptation_behavior_states" source="61" target="62" edge="1">
+        <mxGeometry relative="1" as="geometry"/>
+      </mxCell>
+    </rel_activity_activityLifeLine>
+    <rel_stateLifeLine_activityLifeLine type="relation" time="0" execution="Synchronous" id="64">
+      <mxCell style="strokeColor=#333333;strokeWidth=2;dashed=1;edgeStyle=elbowEdgeStyle;elbow=horizontal;orthogonal=1;" parent="adaptation_behavior_states" source="59" target="62" edge="1">
+        <mxGeometry relative="1" as="geometry"/>
+      </mxCell>
+    </rel_stateLifeLine_activityLifeLine>
+    <rel_activityLifeLine_actionLifeLine type="relation" time="0" execution="Synchronous" id="83">
+      <mxCell style="edgeStyle=elbowEdgeStyle;elbow=horizontal;orthogonal=1;strokeColor=#333333;strokeWidth=2;dashed=1;endFill=1" parent="adaptation_behavior_states" source="55" target="31" edge="1">
+        <mxGeometry relative="1" as="geometry">
+          <Array as="points">
+            <mxPoint x="390" y="110"/>
+          </Array>
+        </mxGeometry>
+      </mxCell>
+    </rel_activityLifeLine_actionLifeLine>
+    <rel_activityLifeLine_actionLifeLine type="relation" time="0" execution="Synchronous" id="85">
+      <mxCell style="edgeStyle=elbowEdgeStyle;elbow=horizontal;orthogonal=1;strokeColor=#333333;strokeWidth=2;dashed=1;endFill=1" parent="adaptation_behavior_states" source="55" target="43" edge="1">
+        <mxGeometry relative="1" as="geometry">
+          <Array as="points">
+            <mxPoint x="430" y="100"/>
+          </Array>
+        </mxGeometry>
+      </mxCell>
+    </rel_activityLifeLine_actionLifeLine>
+    <rel_activityLifeLine_actionLifeLine type="relation" time="0" execution="Synchronous" id="86">
+      <mxCell style="edgeStyle=elbowEdgeStyle;elbow=horizontal;orthogonal=1;strokeColor=#333333;strokeWidth=2;dashed=1;endFill=1" parent="adaptation_behavior_states" source="62" target="35" edge="1">
+        <mxGeometry relative="1" as="geometry">
+          <Array as="points">
+            <mxPoint x="540" y="170"/>
+          </Array>
+        </mxGeometry>
+      </mxCell>
+    </rel_activityLifeLine_actionLifeLine>
+    <rel_activityLifeLine_actionLifeLine type="relation" time="0" execution="Synchronous" id="87">
+      <mxCell style="edgeStyle=elbowEdgeStyle;elbow=horizontal;orthogonal=1;strokeColor=#333333;strokeWidth=2;dashed=1;endFill=1" parent="adaptation_behavior_states" source="62" target="39" edge="1">
+        <mxGeometry relative="1" as="geometry">
+          <Array as="points">
+            <mxPoint x="540" y="180"/>
+          </Array>
+        </mxGeometry>
+      </mxCell>
+    </rel_activityLifeLine_actionLifeLine>
+    <rel_activityLifeLine_actionLifeLine type="relation" time="0" execution="Synchronous" id="88">
+      <mxCell style="edgeStyle=elbowEdgeStyle;elbow=horizontal;orthogonal=1;strokeColor=#333333;strokeWidth=2;dashed=1;endFill=1" parent="adaptation_behavior_states" source="55" target="47" edge="1">
+        <mxGeometry relative="1" as="geometry">
+          <Array as="points">
+            <mxPoint x="520" y="120"/>
+          </Array>
+        </mxGeometry>
+      </mxCell>
+    </rel_activityLifeLine_actionLifeLine>
+    <rel_activityLifeLine_actionLifeLine type="relation" time="0" execution="Synchronous" id="89">
+      <mxCell style="edgeStyle=elbowEdgeStyle;elbow=horizontal;orthogonal=1;strokeColor=#333333;strokeWidth=2;dashed=1;endFill=1" parent="adaptation_behavior_states" source="62" target="47" edge="1">
+        <mxGeometry relative="1" as="geometry">
+          <Array as="points">
+            <mxPoint x="640" y="190"/>
+          </Array>
+        </mxGeometry>
+      </mxCell>
+    </rel_activityLifeLine_actionLifeLine>
+    <mxCell id="adaptation_behavior_transitions" parent="0"/>
+    <variable type="variable" label="var_temperature" dataType="double" value="0" promptName="true" originalId="49" id="clon49">
+      <mxCell style="shape=analogVariable;fillColor=#DCDCDC;" parent="adaptation_behavior_transitions" vertex="1">
+        <mxGeometry x="480" y="50" width="100" height="35" as="geometry"/>
+      </mxCell>
+    </variable>
+    <transition type="transition" label="cold_hot" required="true" id="clon65">
+      <mxCell style="shape=transition;fillColor=#DCDCDC;" parent="adaptation_behavior_transitions" vertex="1">
+        <mxGeometry x="15" y="15" width="100" height="35" as="geometry"/>
+      </mxCell>
+    </transition>
+    <logicalOperator type="logicalOperator" label="op" value="SINGLE" alias="op" undefined="undefined" id="68">
+      <mxCell style="shape=logicalOperator" parent="adaptation_behavior_transitions" vertex="1">
+        <mxGeometry x="190" y="15" width="35" height="35" as="geometry"/>
+      </mxCell>
+    </logicalOperator>
+    <rel_logicalOperator_transition type="relation" id="69">
+      <mxCell style="strokeColor=#333333;strokeWidth=2;" parent="adaptation_behavior_transitions" source="68" target="clon65" edge="1">
+        <mxGeometry relative="1" as="geometry"/>
+      </mxCell>
+    </rel_logicalOperator_transition>
+    <predicate type="predicate" label="to_cold_hot" operator="&gt;=" id="70">
+      <mxCell style="shape=predicate" parent="adaptation_behavior_transitions" vertex="1">
+        <mxGeometry x="300" y="15" width="100" height="35" as="geometry"/>
+      </mxCell>
+    </predicate>
+    <predicateArgument type="predicateArgument" label="v1" id="71">
+      <mxCell style="movable=0;resizable=0;shape=triangle;perimeter=trianglePerimeter;direction=north" parent="70" vertex="1">
+        <mxGeometry x="90" width="10" height="10" as="geometry">
+          <mxPoint as="offset"/>
+        </mxGeometry>
+      </mxCell>
+    </predicateArgument>
+    <predicateArgument type="predicateArgument" label="v2" id="72">
+      <mxCell style="movable=0;resizable=0;shape=triangle;perimeter=trianglePerimeter;direction=north" parent="70" vertex="1">
+        <mxGeometry x="90" y="23" width="10" height="10" as="geometry">
+          <mxPoint as="offset"/>
+        </mxGeometry>
+      </mxCell>
+    </predicateArgument>
+    <rel_predicate_logicalOperator type="relation" id="73">
+      <mxCell style="strokeColor=#333333;strokeWidth=2;" parent="adaptation_behavior_transitions" source="70" target="68" edge="1">
+        <mxGeometry relative="1" as="geometry"/>
+      </mxCell>
+    </rel_predicate_logicalOperator>
+    <transition type="transition" label="hot_cold" required="true" id="clon74">
+      <mxCell style="shape=transition;fillColor=#DCDCDC;" parent="adaptation_behavior_transitions" vertex="1">
+        <mxGeometry x="15" y="165" width="100" height="35" as="geometry"/>
+      </mxCell>
+    </transition>
+    <logicalOperator type="logicalOperator" label="op1" value="SINGLE" alias="op" undefined="undefined" id="77">
+      <mxCell style="shape=logicalOperator" parent="adaptation_behavior_transitions" vertex="1">
+        <mxGeometry x="190" y="165" width="35" height="35" as="geometry"/>
+      </mxCell>
+    </logicalOperator>
+    <rel_logicalOperator_transition type="relation" id="78">
+      <mxCell style="strokeColor=#333333;strokeWidth=2;" parent="adaptation_behavior_transitions" source="77" target="clon74" edge="1">
+        <mxGeometry relative="1" as="geometry"/>
+      </mxCell>
+    </rel_logicalOperator_transition>
+    <predicate type="predicate" label="to_hot_cold" operator="&lt;" id="79">
+      <mxCell style="shape=predicate" parent="adaptation_behavior_transitions" vertex="1">
+        <mxGeometry x="300" y="165" width="100" height="35" as="geometry"/>
+      </mxCell>
+    </predicate>
+    <predicateArgument type="predicateArgument" label="v1" id="80">
+      <mxCell style="movable=0;resizable=0;shape=triangle;perimeter=trianglePerimeter;direction=north" parent="79" vertex="1">
+        <mxGeometry x="90" width="10" height="10" as="geometry">
+          <mxPoint as="offset"/>
+        </mxGeometry>
+      </mxCell>
+    </predicateArgument>
+    <predicateArgument type="predicateArgument" label="v2" id="81">
+      <mxCell style="movable=0;resizable=0;shape=triangle;perimeter=trianglePerimeter;direction=north" parent="79" vertex="1">
+        <mxGeometry x="90" y="23" width="10" height="10" as="geometry">
+          <mxPoint as="offset"/>
+        </mxGeometry>
+      </mxCell>
+    </predicateArgument>
+    <rel_predicate_logicalOperator type="relation" id="82">
+      <mxCell style="strokeColor=#333333;strokeWidth=2;" parent="adaptation_behavior_transitions" source="79" target="77" edge="1">
+        <mxGeometry relative="1" as="geometry"/>
+      </mxCell>
+    </rel_predicate_logicalOperator>
+    <variable type="variable" label="var_limit_hot" dataType="double" value="180" promptName="true" originalId="90" id="clon90">
+      <mxCell style="shape=analogVariable;fillColor=#DCDCDC;" parent="adaptation_behavior_transitions" vertex="1">
+        <mxGeometry x="480" y="130" width="100" height="35" as="geometry"/>
+      </mxCell>
+    </variable>
+    <rel_variable_predicateArgument type="relation" id="91">
+      <mxCell style="strokeColor=#333333;strokeWidth=2;dashed=1;endFill=0;" parent="adaptation_behavior_transitions" source="clon49" target="71" edge="1">
+        <mxGeometry relative="1" as="geometry"/>
+      </mxCell>
+    </rel_variable_predicateArgument>
+    <rel_variable_predicateArgument type="relation" id="92">
+      <mxCell style="strokeColor=#333333;strokeWidth=2;dashed=1;endFill=0;" parent="adaptation_behavior_transitions" source="clon90" target="72" edge="1">
+        <mxGeometry relative="1" as="geometry"/>
+      </mxCell>
+    </rel_variable_predicateArgument>
+    <rel_variable_predicateArgument type="relation" id="93">
+      <mxCell style="strokeColor=#333333;strokeWidth=2;dashed=1;endFill=0;" parent="adaptation_behavior_transitions" source="clon49" target="80" edge="1">
+        <mxGeometry relative="1" as="geometry"/>
+      </mxCell>
+    </rel_variable_predicateArgument>
+    <rel_variable_predicateArgument type="relation" id="94">
+      <mxCell style="strokeColor=#333333;strokeWidth=2;dashed=1;endFill=0;" parent="adaptation_behavior_transitions" source="clon90" target="81" edge="1">
+        <mxGeometry relative="1" as="geometry"/>
+      </mxCell>
+    </rel_variable_predicateArgument>
+    <mxCell id="control" parent="0" visible="0"/>
+  </root>
+</mxGraphModel>
