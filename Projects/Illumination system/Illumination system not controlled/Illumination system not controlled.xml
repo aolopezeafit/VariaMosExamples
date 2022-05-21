@@ -8,7 +8,7 @@
     <mxCell id="classdiag" parent="0" visible="0"/>
     <mxCell id="adap_architecture" parent="0" visible="0"/>
     <mxCell id="adaptation_architecture" parent="0" visible="0"/>
-    <mxCell id="adaptation_hardware" parent="0"/>
+    <mxCell id="adaptation_hardware" parent="0" visible="0"/>
     <board type="board" label="ArduinoUNO" boardType="ArduinoUNO" subtype="ArduinoUNO" digitalPins="D2,D4,D7,D8,D12,D13" analogPins="A0,A1,A2,A3,A4,A5" pwmPins="P3,P5,P6,P9,P10,P11" id="1">
       <mxCell style="shape=board" parent="adaptation_hardware" vertex="1">
         <mxGeometry x="370" y="80" width="150" height="182.5" as="geometry"/>
@@ -157,7 +157,7 @@
         <mxGeometry relative="1" as="geometry"/>
       </mxCell>
     </rel_pwm_pwm>
-    <mxCell id="adaptation_behavior_hardware" parent="0" visible="0"/>
+    <mxCell id="adaptation_behavior_hardware" parent="0"/>
     <device type="device" label="led" required="true" subtype="powerLed" digitalPins="" analogPins="" pwmPins="P0" promptName="true" id="clon20">
       <mxCell style="shape=device;fillColor=#DCDCDC;" parent="adaptation_behavior_hardware" vertex="1">
         <mxGeometry x="15" y="15" width="100" height="35" as="geometry"/>
@@ -187,7 +187,7 @@
         <mxGeometry relative="1" as="geometry"/>
       </mxCell>
     </rel_device_writeAction>
-    <variable type="variable" label="var_power" dataType="double" value="0" promptName="true" id="31">
+    <variable type="variable" label="var_power" dataType="double" value="1023" promptName="true" id="31">
       <mxCell style="shape=analogVariable" parent="adaptation_behavior_hardware" vertex="1">
         <mxGeometry x="10" y="190" width="100" height="35" as="geometry"/>
       </mxCell>
@@ -198,7 +198,7 @@
       </mxCell>
     </rel_variable_actionArgument>
     <mxCell id="adaptation_state" parent="0" visible="0"/>
-    <initialState label="off" type="initialState" acceptance="true" promptName="true" id="48">
+    <initialState label="on" type="initialState" acceptance="true" promptName="true" id="48">
       <mxCell style="shape=initialState" parent="adaptation_state" vertex="1">
         <mxGeometry x="260" y="90" width="100" height="35" as="geometry"/>
       </mxCell>
@@ -235,7 +235,7 @@
         </mxGeometry>
       </mxCell>
     </m>
-    <initialState label="off" type="initialState" acceptance="true" promptName="true" id="clon48">
+    <initialState label="on" type="initialState" acceptance="true" promptName="true" id="clon48">
       <mxCell style="shape=initialState;fillColor=#DCDCDC;" parent="adaptation_behavior_states" vertex="1">
         <mxGeometry x="15" y="15" width="100" height="35" as="geometry"/>
       </mxCell>
@@ -266,7 +266,7 @@
       </mxCell>
     </rel_activity_activityLifeLine>
     <rel_stateLifeLine_activityLifeLine type="relation" time="0" execution="Synchronous" id="92">
-      <mxCell style="edgeStyle=elbowEdgeStyle;elbow=horizontal;orthogonal=1;strokeColor=#333333;strokeWidth=2;dashed=1;endFill=1" edge="1" parent="adaptation_behavior_states" source="49" target="59">
+      <mxCell style="edgeStyle=elbowEdgeStyle;elbow=horizontal;orthogonal=1;strokeColor=#333333;strokeWidth=2;dashed=1;endFill=1" parent="adaptation_behavior_states" source="49" target="59" edge="1">
         <mxGeometry relative="1" as="geometry">
           <Array as="points">
             <mxPoint x="140" y="110"/>
@@ -275,17 +275,17 @@
       </mxCell>
     </rel_stateLifeLine_activityLifeLine>
     <actionLifeLine label="anll" type="actionLifeLine" alias="anll" id="93">
-      <mxCell style="shape=lifeLine" vertex="1" parent="adaptation_behavior_states">
+      <mxCell style="shape=lifeLine" parent="adaptation_behavior_states" vertex="1">
         <mxGeometry x="360" y="90" width="10" height="50" as="geometry"/>
       </mxCell>
     </actionLifeLine>
     <rel_writeAction_actionLifeLine type="relation" id="94">
-      <mxCell style="edgeStyle=elbowEdgeStyle;elbow=horizontal;orthogonal=1;strokeColor=#333333;strokeWidth=2;dashed=1;endFill=0;endArrow=none;" edge="1" parent="adaptation_behavior_states" source="clon26" target="93">
+      <mxCell style="edgeStyle=elbowEdgeStyle;elbow=horizontal;orthogonal=1;strokeColor=#333333;strokeWidth=2;dashed=1;endFill=0;endArrow=none;" parent="adaptation_behavior_states" source="clon26" target="93" edge="1">
         <mxGeometry relative="1" as="geometry"/>
       </mxCell>
     </rel_writeAction_actionLifeLine>
     <rel_activityLifeLine_actionLifeLine type="relation" time="0" execution="Synchronous" id="95">
-      <mxCell style="edgeStyle=elbowEdgeStyle;elbow=horizontal;orthogonal=1;strokeColor=#333333;strokeWidth=2;dashed=1;endFill=1" edge="1" parent="adaptation_behavior_states" source="59" target="93">
+      <mxCell style="edgeStyle=elbowEdgeStyle;elbow=horizontal;orthogonal=1;strokeColor=#333333;strokeWidth=2;dashed=1;endFill=1" parent="adaptation_behavior_states" source="59" target="93" edge="1">
         <mxGeometry relative="1" as="geometry">
           <Array as="points">
             <mxPoint x="300" y="110"/>
@@ -294,7 +294,7 @@
       </mxCell>
     </rel_activityLifeLine_actionLifeLine>
     <mxCell id="adaptation_behavior_transitions" parent="0" visible="0"/>
-    <variable type="variable" label="var_power" dataType="double" value="0" promptName="true" originalId="31" id="clon31">
+    <variable type="variable" label="var_power" dataType="double" value="1023" promptName="true" originalId="31" id="clon31">
       <mxCell style="shape=analogVariable;fillColor=#DCDCDC;" parent="adaptation_behavior_transitions" vertex="1">
         <mxGeometry x="150" y="70" width="100" height="35" as="geometry"/>
       </mxCell>
